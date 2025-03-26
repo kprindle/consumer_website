@@ -1,0 +1,72 @@
+.mission-and-approach-container {
+	width: 100%;
+	height: fit-content;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+.mission-and-approach-inner-container {
+	width: 75%;
+	height: fit-content;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 10vh;
+	border-bottom: 1px solid black;
+}
+.our-mission {
+	height: 50vh;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 10vh;
+}
+
+.our-mission-text {
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.our-mission-title {
+	margin-bottom: 2vh;
+	font-family: "Articulat CF", sans-serif;
+	font-size: 2.5rem;
+}
+
+.our-mission-description {
+	font-family: "Elza", sans-serif;
+	font-size: 20px;
+}
+
+.mission-and-approach-image {
+	width: 40%;
+	height: 100%;
+	border-radius: 15px;
+}
+
+@media (max-width: 1000px) {
+	.our-mission {
+		flex-direction: column;
+		align-items: center;
+		width: 90%;
+		height: fit-content;
+	}
+	.our-mission-text {
+		width: 80%;
+	}
+	.mission-and-approach-image {
+		width: 80%;
+	}
+	.our-mission-description {
+		margin-bottom: 10vh;
+	}
+	.our-approach {
+		flex-direction: column-reverse;
+	}
+}

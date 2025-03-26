@@ -1,0 +1,14 @@
+body {
+  min-height: 100dvh;
+}
+
+html{
+  padding:0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}

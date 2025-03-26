@@ -1,0 +1,287 @@
+.science-header {
+	width: 100%;
+	min-height: 70vh;
+	background-image: url(/SciencePage/Science-Header.jpg);
+	background-size: cover;
+	background-position: center;
+	margin-top: -10vh;
+	position: relative;
+	z-index: -1;
+}
+
+.header-text-container {
+	width: fit-content;
+	height: fit-content;
+	position: absolute;
+	bottom: 15%;
+	left: 8%;
+	display: flex;
+	flex-direction: column;
+}
+
+.title {
+	font-family: "elza", sans-serif;
+	font-size: 18px;
+	letter-spacing: 2px;
+	color: #455a68;
+	font-weight: 500;
+}
+
+.subtitle {
+	margin-top: 2vh;
+	font-family: "Articulat CF", sans-serif;
+	font-size: 70px;
+	color: #46784e;
+	width: 60%;
+}
+
+.colordots-and-text {
+	width: 100%;
+	display: flex;
+
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.science-content-container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.science-content {
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+	margin-top: 10vh;
+}
+
+.science-text-header {
+	margin-top: 2vh;
+	margin-bottom: 4vh;
+	font-family: "articulat cf", sans-serif;
+	font-size: 48px;
+	font-weight: 500;
+	color: #46784e;
+}
+
+.science-text {
+	font-family: "elza", sans-serif;
+	font-size: 32px;
+	margin-bottom: 2vh;
+	line-height: 1.5;
+	padding-bottom: 4vh;
+}
+
+.science-image {
+	margin-bottom: 4vh;
+}
+
+.science-blue-title {
+	text-align: center;
+	font-family: "articulat cf", sans-serif;
+	font-size: 32px;
+	font-weight: 500;
+	color: #455a68;
+	width: 80%;
+}
+
+.science-blue-text-container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 6vh;
+	border-bottom: 1px solid black;
+}
+
+.quoted-in-science {
+	font-family: "elza", sans-serif;
+	font-size: 18px;
+	margin-top: 2vh;
+	line-height: 1.5;
+}
+
+.black-bold-header {
+	width: 100%;
+	text-align: center;
+	font-family: "elza", sans-serif;
+	font-size: 36px;
+	font-weight: 600;
+	color: #000000;
+	margin-bottom: 15px;
+}
+
+.black-header {
+	width: 100%;
+	text-align: center;
+	font-family: "elza", sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	color: #000000;
+	margin-bottom: 15px;
+}
+
+.cannabis-and-consumer-tables {
+	width: 80%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.tables {
+	width: 48%;
+}
+
+.endnotes-container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 5vh;
+}
+
+.science-image-2 {
+	width: 60%;
+	align-items: center;
+	margin: 0 auto;
+	padding-bottom: 8vh;
+}
+
+.science-image-3 {
+	width: 80%;
+	align-items: center;
+	margin: 0 auto;
+	padding-bottom: 8vh;
+}
+
+.science-text-width {
+	width: 50%;
+}
+
+.colordotsimage {
+	width: 30%;
+}
+
+.science-container {
+	position: relative;
+}
+
+.science-nav {
+	position: sticky;
+	top: 0;
+	background-color: #f2f2f2;
+	padding: 10px;
+	padding-right: 15%;
+	padding-left: 15%;
+	font-family: "articulat cf", sans-serif;
+
+	display: flex;
+	justify-content: space-between;
+	z-index: 999;
+}
+
+.science-nav a {
+	color: #455a68;
+	text-decoration: none;
+	padding: 10px;
+}
+
+.science-nav a:hover {
+	text-decoration: underline;
+}
+
+.science-content {
+	padding: 20px;
+}
+
+@media (max-width: 1000px) {
+	.colordotsimage {
+		width: 80%;
+	}
+	.colordots-and-text {
+		flex-direction: column;
+	}
+	.science-text-width {
+		width: 100%;
+	}
+	.science-image-3 {
+		width: 100%;
+	}
+	.science-image-2 {
+		width: 100%;
+	}
+}
+
+@media (max-width: 768px) {
+	.science-nav {
+		position: sticky;
+		top: 0;
+		background-color: #f2f2f2;
+		padding: 10px;
+		font-size: small;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		gap: 10px;
+		z-index: 999;
+		max-width: 100%;
+	}
+	.cannabis-and-consumer-tables {
+		flex-direction: column;
+		justify-content: center;
+	}
+	.tables {
+		width: 100%;
+	}
+	.science-header {
+		min-height: 50vh;
+		display: flex;
+		align-items: center;
+	}
+
+	.header-text-container {
+		bottom: 10%;
+		left: 5%;
+	}
+
+	.title {
+		font-size: 14px;
+	}
+
+	.subtitle {
+		font-size: 40px;
+		width: 80%;
+	}
+
+	.science-content {
+		width: 80%;
+	}
+
+	.science-text-header {
+		font-size: 24px;
+	}
+
+	.science-text {
+		font-size: 16px;
+	}
+
+	.science-blue-title {
+		font-size: 24px;
+	}
+
+	.quoted-in-science {
+		font-size: 16px;
+	}
+	.description {
+		display: none;
+	}
+	.about-header {
+		min-height: 50vh;
+		display: flex;
+		align-items: center;
+	}
+}

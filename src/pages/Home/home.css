@@ -1,0 +1,440 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.front-page {
+	width: 100vw;
+	background-image: url(/Home-HeaderBkg-Wide.jpg);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	padding-bottom: 25vh;
+}
+
+.front-page-text-wrapper {
+	width: 60vw;
+	margin-top: 15vh;
+	margin-left: 10vw;
+	z-index: 3;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.opening-small-blue-text {
+	color: #455a68;
+	padding: 10px;
+	letter-spacing: 0.1em;
+	padding-right: 0;
+	padding-left: 0;
+	border-bottom: 1px solid #455a68;
+	width: fit-content;
+	font-family: "Elza", sans-serif;
+	font-weight: 500;
+}
+
+.openening-title-green-large {
+	color: #46784e;
+	font-size: 78px;
+	font-weight: 500;
+	padding: 10px;
+	padding-right: 0;
+	padding-left: 0;
+	margin-top: 2.5vh;
+	font-family: "Elza", sans-serif;
+}
+
+.color-dots-wrapper {
+	display: flex;
+	flex-direction: row;
+}
+
+.color-dot {
+	height: 45px;
+	width: 45px;
+	border-radius: 50%;
+	margin: 10px;
+}
+
+.middle-portion {
+	margin-top: -20vh;
+	z-index: 1;
+	/* margin-top: 60vh; */
+	width: 90vw;
+	background-color: white;
+	background-color: white;
+	border-radius: 25px;
+	border: 1px solid black;
+}
+
+.middle-portion-text-wrapper {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	padding: 8vh;
+	padding-bottom: 0;
+}
+
+.setting-the-standard {
+	font-family: "Articulat CF", sans-serif;
+	font-size: 2.5rem;
+	text-align: center;
+}
+
+.adhereing-to-high-standards {
+	margin-top: 2vh;
+	font-family: "Articulat CF", sans-serif;
+	font-size: 1.5rem;
+	max-width: 80%;
+	padding-bottom: 10px;
+}
+
+.selection-buttons-wrapper {
+	margin: 25px;
+	margin-left: 0;
+}
+
+.selection-button {
+	font-family: "Elza", sans-serif;
+	font-size: 20px;
+	margin: 10px;
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 50px;
+	cursor: pointer;
+}
+
+.selection-button:hover {
+	background-color: #dfefe8;
+	color: #46784e;
+}
+
+.selected {
+	background-color: #dfefe8;
+	color: #46784e;
+}
+
+.middle-portion-bottom-section {
+	padding-bottom: 50px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.middle-portion-bottom-section-right,
+.middle-portion-bottom-section-left {
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	height: 50vh;
+}
+
+.standards-images {
+	height: 50vh;
+	box-sizing: border-box;
+	box-shadow: 2px 2px 8px 8px rgba(0, 0, 0, 0.103);
+}
+
+.blue-box-explanation {
+	position: absolute;
+	color: white;
+	font-family: "Elza", sans-serif;
+	top: 30%;
+	left: 50%;
+	font-size: 20px;
+	width: 50%;
+	line-height: 1.25;
+	padding: 20px;
+	background-color: #455a68;
+}
+
+.farm-bill-image {
+	height: 90%;
+	box-shadow: 2px 2px 8px 8px rgba(0, 0, 0, 0.103);
+}
+
+.selectionDetailsContiner {
+	width: 80%;
+	padding: 15px;
+	display: flex;
+	flex-direction: column;
+	font-family: "elza", sans-serif;
+	justify-content: center;
+}
+
+.selectionDetails {
+	font-family: "Elza", sans-serif;
+	font-size: 24px;
+}
+
+.learn-more-button {
+	font-family: "Elza", sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	padding: 5px;
+	margin-top: 25px;
+	padding: 10px;
+	border-radius: 50px;
+	width: 200px;
+	min-width: auto;
+	cursor: pointer;
+	background-color: #46784e;
+	color: white;
+}
+
+.as-seen-in-tite {
+	font-family: "Elza", sans-serif;
+	font-weight: 500;
+	letter-spacing: 3px;
+	font-size: 16px;
+	color: #455a68;
+	margin-top: 10vh;
+	margin-bottom: 5vh;
+}
+
+.as-seen-in-logos {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.as-seen-in-single {
+	width: 10%;
+}
+
+.background-image {
+	background-image: url(/Home-Bkg.jpg);
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 40vh;
+}
+
+.shop-by-color-container {
+	width: 90%;
+	height: 40vh;
+	border: 1px solid black;
+	border-radius: 20px;
+	z-index: 2;
+	margin-top: -25vh;
+	background-color: white;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.shop-by-color-text-container {
+	height: 80%;
+	margin-left: 5%;
+	width: 25%;
+	font-family: "Articulat CF", sans-serif;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	font-size: 1.5rem;
+}
+
+.shop-by-color-partners-wrapper {
+	width: 60%;
+	margin-left: 5%;
+	height: 80%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.shop-by-color-partner {
+	width: 20%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.shop-by-color-partner-logo {
+	width: 100%;
+	height: 80%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.shop-by-color-partner-name {
+	width: 100%;
+	height: 20%;
+	display: flex;
+	font-family: "elza", sans-serif;
+	border-top: 1px solid black;
+	justify-content: center;
+	align-items: center;
+}
+
+.shop-by-color-partner-logo-image {
+	width: 80%;
+}
+
+.reliability-proof-text-container {
+	height: 30vh;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: row;
+}
+
+.reliability-proof-right {
+	font-family: "elza", sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	width: 30%;
+}
+
+.reliability-proof-left {
+	font-family: "Articulat CF", sans-serif;
+	font-weight: 600;
+	font-size: 1.5rem;
+	width: 20%;
+}
+
+.how-dyc-works-text {
+	font-family: "Articulat CF", sans-serif;
+	margin-top: 5vh;
+	height: 20vh;
+	margin-bottom: 10vh;
+	width: 85%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.how-dyc-works-subtitle {
+	width: 50%;
+}
+.how-dyc-works-title {
+	width: 30%;
+	font-weight: 600;
+	font-size: 1.5rem;
+	font-family: "Articulat CF", sans-serif;
+	font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 1500px) {
+	.front-page-text-wrapper {
+		width: 80vw;
+	}
+	.middle-portion-bottom-section {
+		flex-direction: column;
+	}
+	.selectionDetails {
+		width: 70vw;
+	}
+	.selectionDetailsContiner {
+		justify-content: center;
+		align-items: center;
+		margin-top: 200px;
+	}
+	.standards-images {
+		width: 80%;
+		margin-top: 100px;
+	}
+	.shop-by-color-container {
+		flex-direction: column;
+	}
+	.shop-by-color-partners-wrapper {
+		width: 90%;
+		margin: 0;
+	}
+	.shop-by-color-text-container {
+		width: 80%;
+		margin-top: 20px;
+	}
+	.shop-by-color-partner-name {
+		display: none;
+	}
+	.middle-portion {
+		margin-top: -15vh;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.video-back {
+		margin-top: 15vh;
+	}
+	.how-dyc-works-title {
+		width: 80%;
+		text-align: center;
+		font-size: 1.5rem;
+		font-family: "Articulat CF", sans-serif;
+		font-size: 1.5rem;
+	}
+	.middle-portion-bottom-section-right,
+	.middle-portion-bottom-section-left {
+		height: 60vh;
+	}
+	.how-dyc-works-text {
+		flex-direction: column;
+	}
+	.adhereing-to-high-standards {
+		max-width: 100%;
+	}
+	.opening-small-black-text {
+		display: none;
+	}
+	.openening-title-green-large {
+		font-size: 3em;
+	}
+	.front-page {
+		padding-bottom: 30%;
+	}
+	.standards-images {
+		width: 60vw;
+	}
+	.reliability-proof-right {
+		width: 80%;
+	}
+	.reliability-proof-left {
+		margin-top: 5vh;
+		width: 80%;
+	}
+	.reliability-proof-text-container {
+		flex-direction: column;
+	}
+	.blue-box-explanation {
+		position: absolute;
+		color: white;
+		top: 30%;
+		left: 50%;
+		width: 100%;
+		padding: 10px;
+		background-color: #455a68;
+	}
+	.farm-bill-image {
+		height: 60%;
+	}
+	.selection-button {
+		width: 100%;
+	}
+	.front-page-text-wrapper {
+		margin-top: 5vh;
+	}
+}

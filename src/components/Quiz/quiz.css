@@ -1,0 +1,444 @@
+.dyc-logo {
+	max-width: 150px;
+	padding: 25px;
+}
+
+.results-container {
+	margin-bottom: 4vh;
+	display: none;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 80vw;
+}
+.resetButtonContainer {
+	width: 100vw !important;
+	display: flex;
+	align-items: center;
+}
+.resetButton {
+	margin-left: 10vw;
+	width: 30vw;
+	margin-top: -4vh;
+	height: 10vh;
+	background-color: #ea7a7a;
+	border: 5px solid rgba(0, 0, 0, 0);
+	border-radius: 30px;
+	font-size: 2rem;
+	display: none;
+	align-items: center;
+	justify-content: center;
+	color: white;
+}
+
+.resetButton:hover {
+	cursor: pointer;
+	color: black;
+	border: 5px solid black;
+}
+
+.feedback-icon {
+	width: 20vw;
+	margin-top: -20px;
+}
+
+.little-dude {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+	margin-left: 5vw;
+}
+
+.color-type-text {
+	font-size: 1.5rem;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+	color: black;
+}
+
+.result-text {
+	width: 40vw;
+	font-size: 1.1rem;
+	font-family: "Montserrat", sans-serif !important;
+	font-weight: 600;
+}
+
+.quiz-container {
+	width: 50vw;
+	/* border: 1px solid black; */
+	border-radius: 10px;
+	padding: 20px;
+}
+
+.client-logo {
+	width: 100%;
+}
+
+.main {
+	margin-top: 20vh;
+	z-index: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	font-family: "Articulat CF", sans-serif;
+	min-height: 50vh;
+	transition: min-height 0.5s ease-in-out;
+}
+
+.confusedbycannabis,
+.explanation-confusedbycannabis {
+	transform: translateY(-200px);
+}
+
+.confusedbycannabis {
+	font-size: 5rem;
+	margin-bottom: 3vh;
+	letter-spacing: -3px;
+	font-family: "Gilda Display", Sans-serif;
+}
+
+.explanation-confusedbycannabis {
+	font-size: 1.5rem;
+	font-weight: 500;
+	margin-bottom: 2vh;
+	font-family: "montserrat", Sans-serif;
+	max-width: 50vw;
+}
+
+.dispensary-list {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100vw !important;
+	height: 35vh;
+	height: 100%;
+	margin-top: 5vh;
+}
+
+.dispensary-list-item {
+	border-top-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+	height: 250px;
+	width: 250px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-bottom: 4vh;
+	background-color: #434343;
+	padding: 40px;
+}
+
+.dispensary-list-item:hover {
+	cursor: pointer;
+	background-color: #455a68;
+}
+
+.dispensary-list {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+
+.dispensary-list-container {
+	padding-top: 4vh;
+	width: 75vw;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 40px; /* Adjust the gap between grid items as needed */
+}
+
+@media (max-width: 1200px) {
+	.dispensary-list-container {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media (max-width: 768px) {
+	.dispensary-list-container {
+		grid-template-columns: 1fr;
+	}
+}
+
+.quiz-header {
+	width: 100%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	margin-top: -8vh !important;
+	height: 100%;
+	color: black;
+	font-family: "Montserrat", sans-serif;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.quiz-header {
+	width: 100vw !important;
+	max-width: 100vw !important;
+	padding: 0 !important;
+}
+
+.question-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.question-title {
+	font-size: 24px;
+	margin-bottom: 20px;
+	width: 100%;
+  font-family: "elza", sans-serif;
+}
+
+.questions {
+	border: 1px solid black;
+	align-items: center;
+	text-align: center;
+	padding: 15px;
+	font-size: 1.5rem;
+	width: 40vw;
+	margin-top: 3vh;
+	border-radius: 20px;
+	font-weight: 600;
+}
+
+
+
+.questions:hover {
+	background-color: #46784e;
+  color: white;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	cursor: pointer;
+}
+
+.back {
+	cursor: pointer;
+	border: 1px solid black;
+	color: white;
+	background-color: #5a6268;
+	text-align: center;
+	padding: 15px;
+	font-size: 1.5rem;
+	width: 10vw;
+	margin-top: 3vh;
+	border-radius: 20px;
+	font-weight: 600;
+}
+
+.back:hover {
+	background-color: black;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	cursor: pointer;
+}
+
+.opening-text {
+	font-size: 1.5rem;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	opacity: 0.7;
+}
+
+.start-quiz {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.elementor-video {
+	width: 60vw;
+}
+
+.start-quiz-title {
+	font-size: 2rem;
+	opacity: 0.7;
+}
+
+.quiz-title {
+	font-size: 36px;
+  font-weight:400;
+	text-align: center;
+}
+
+.start-button {
+	all: unset;
+	font-family: Helvetica, Arial, sans-serif;
+	margin-top: 2vh;
+	display: inline-block;
+	max-width: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	background-color: #92c6b5;
+	color: #000;
+	font-size: 20px;
+	border-radius: 25px;
+	padding: 0 33px;
+	font-weight: bold;
+	height: 50px;
+	cursor: pointer;
+	line-height: 50px;
+	text-align: center;
+	margin: 0;
+	text-decoration: none;
+}
+
+.start-button:hover {
+	opacity: 0.7;
+	cursor: pointer;
+}
+
+.fade-out {
+	opacity: 0;
+	transition: opacity 0.5s ease-out;
+}
+
+.fade-in {
+	opacity: 1;
+	transition: opacity 0.5s ease-in;
+}
+
+.question-container {
+	opacity: 1;
+	transition: opacity 0.5s ease-in-out;
+}
+
+.seeDispoBelow {
+	width: 100vw !important;
+	height: 100% !important;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size: 3rem;
+	font-family: "Montserrat", sans-serif !important;
+	padding-top: 2vh;
+	color: black;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	margin-top: 8vh;
+}
+
+.dispensary-list-item-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	font-weight: 600;
+	font-size: 1.5rem;
+}
+
+.classifier {
+	width: 100% !important;
+	text-align: center;
+	margin-bottom: 1vh;
+	text-align: center;
+	font-family: "Montserrat", sans-serif !important;
+	font-weight: 300;
+	font-size: 1.5rem;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes fadeOut {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+	}
+}
+
+.fade-in {
+	animation: fadeIn 0.3s ease-in-out forwards;
+}
+
+.fade-out {
+	animation: fadeOut 0.3s ease-in-out forwards;
+}
+
+.fade-in-slow {
+	animation: fadeIn 1s ease-in-out forwards;
+}
+
+.fade-out-slow {
+	animation: fadeOut 1s ease-in-out forwards;
+}
+
+@media screen and (max-width: 900px) {
+	.top-component {
+		background-image: url("https://discoveryourcolor.co/wp-content/uploads/2025/01/v904-nunny-015.jpg");
+	}
+	.quiz-container {
+		width: 80vw;
+	}
+	.results-container {
+		width: 80vw;
+		flex-direction: column;
+	}
+	.result-text {
+		width: 85vw;
+	}
+	.seeDispoBelow {
+		height: 100% !important;
+	}
+	.dispensary-list-container {
+		margin-top: 5vh;
+		width: 90vw;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+	.dispensary-list {
+		background: none;
+	}
+	.questions {
+		width: 80vw !important;
+	}
+	.feedback-icon {
+		width: 250px;
+	}
+	.resetButton {
+		width: 80vw;
+		margin-left: 0;
+		margin-top: 0;
+	}
+	.resetButtonContainer {
+		width: 100vw !important;
+		display: flex;
+		padding-left: 0;
+		align-items: center;
+		justify-content: center;
+	}
+	.confusedbycannabis {
+		font-size: 3.5rem;
+	}
+	.seeDispoBelow {
+		margin-top: 5vh !important;
+	}
+}

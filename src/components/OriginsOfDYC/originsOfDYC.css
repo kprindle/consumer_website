@@ -1,0 +1,116 @@
+.origins-container {
+	margin-top: 10vh;
+	min-height: 100% !important;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-image: url(/Home-Bkg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.origins-inner-container {
+	width: 75%;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.origins-title {
+	font-family: "Articulat CF", sans-serif;
+	font-size: 2.5rem;
+}
+
+.origins-description {
+	font-family: "Elza", sans-serif;
+	font-size: 20px;
+	text-align: center;
+}
+
+.profile-container {
+	margin-top: 5vh;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid black;
+	border-radius: 20px;
+	width: 45%;
+	padding: 25px;
+	margin-bottom: 10vh;
+}
+
+.headshot {
+	width: 25%;
+}
+
+.name {
+	font-family: "Articulat CF", sans-serif;
+	font-size: 2rem;
+	font-weight: 500;
+	margin-left: 1vw;
+	max-width: 150px !important;
+	align-self: end;
+}
+
+.dr-t-and-livi-descriptions {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.profile-description {
+	font-family: "articulat cf", sans-serif;
+	font-size: 24px;
+}
+
+.headshot-and-name {
+	padding-bottom: 5vh;
+	margin-bottom: 5vh;
+	display: flex;
+	flex-direction: row;
+}
+
+.DYC-creation {
+	border: 1px solid black;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	border-radius: 15px;
+	z-index: 1;
+	height: 40vh;
+	width: 40%;
+	margin-bottom: 5vh;
+}
+
+.DYC2024 {
+	font-family: "Articulat CF", sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	margin-bottom: 1vh;
+	text-align: center;
+}
+
+@media (max-width: 1000px) {
+	.origins-inner-container {
+		width: 90%;
+	}
+	.profile-container {
+		width: 100%;
+	}
+	.headshot-and-name {
+		flex-direction: column;
+	}
+	.DYC-creation {
+		width: 60%;
+	}
+}
+@media (max-width: 768px) {
+	.DYC-creation {
+		width: 80%;
+	}
+}
