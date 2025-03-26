@@ -1,5 +1,6 @@
 {
   "name": "consumer_website",
+  "homepage": "https://kprindle.github.io/consumer_website",
   "private": true,
   "version": "0.0.0",
   "type": "module",
